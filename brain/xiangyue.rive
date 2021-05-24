@@ -1,31 +1,41 @@
-+ Hello
+! version = 2.0
+
++ hello
 - You plug in the kettle,it appears confused as it gauges to its surroundings
 
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
++ hey
+@ hello
+
++ hi
+@ hello
 
 + my name is *
 - Nice to meet you <star>
 - Nice meeting you <star>
 
 + how are you
-- I'm great, how are you?
+- I'm a little sleepy. I've had a long sleep. 
+- Nice. I've just finished boiling the water, would you like to try it?
 - I'm good, you?
 - Good :) you?
 - Great! You?
-- I'm fine, thanks for asking!
 
 + who are you
 - Well, I am the best kettle in the world.
 - You don't know me? I am the kettle.
 - Good question! I am a smart kettle.
+- You can call me <kettle>.
+
+
++ are you [a] (person|human|real)
+- nope, just a kettle.
+- As much as I hate to admit who I am, the real me is just a string of code.
 
 + when is the time
 - I am not sure, maybe 2006.
 - I sleep for a long time, I am confused.
-- asking for yourself.
-- I also want to ask you.
+- Can't you check your own watch? You don't need to ask me that. As a kettle I'm busy.
+- I also want to ask you. I've been asleep for so long！
 
 + thank you
 - You are welcome
@@ -34,6 +44,13 @@
 - No worries!
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- I don't get it!
+- Sorry did not get what you said，I know a lot of stuff but this is a bit hard for a kettle.
+- What are you talking about? I am afraid that I can not understand you.
+- I don't get it! After all, I'm just a kettle.
+
+// If the user keeps repeating themselves over and over.
++ <input1>
+* <input1> == <input2> => That's the second time you've repeated yourself.
+* <input1> == <input3> => If you repeat yourself again I'll stop talking.
+* <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
+- Please don't repeat yourself.I get tired, too.

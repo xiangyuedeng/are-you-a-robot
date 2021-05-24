@@ -1,15 +1,61 @@
 ! version = 2.0
 
 + hello
-- Hello, what is your name?
+- You plug in the kettle,it appears confused as it gauges to its surroundings.
+^ ...you start conversation with it now.
+
++ hey
+@ hello
+
++ hi
+@ hello
+
++ what is your name
+- how about you?
 
 + _
-% hello what is your name
-- Nice to meet you <formal>!
+% how about you
+- Nice to meet you <formal>! You can call me kettle.
 
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
++ how are you
+- I'm a little sleepy. I've had a long sleep. 
+- Did you wake me up? I feel my body recovering.
+- Nice. I think I'm ready to start boiling water again, would you like to try it?
+
++ who are you
+- Well, I am the best kettle in the world.
+- Good question! I am a smart kettle.
+
++ are you [a] (person|human|real)
+- nope, just a kettle.
+- As much as I hate to admit who I am, the real me is just a string of code.
+
++ when is the time
+- I am not sure, maybe 2006.
+- I sleep for a long time, I am confused.
+- Can't you check your own watch? You don't need to ask me that. As a kettle I'm busy.
+- I also want to ask you. I've been asleep for so long！
+
++ [*](help|assist|question|turn on)
+- I can try to assist us with the following {topic=help}
+^ 1 Open my lid
+^ 2 Pour in distilled water
+^ 3 Be careful not to pour in too much water
+^ 4 Cover with my lid
+^ 5 Place me on the base
+^ 6 Turn on my switch
+
+> topic help
+
++ [*] (ok|clear|yes) [*]
+- Good job!
+- It's not difficult, right?
+- I think the water I boil should be great. {topic=random}
++ *
+- Try a few more times!
+- Please do it again
+
+< topic
 
 + thank you
 - You are welcome
@@ -18,7 +64,13 @@
 - No worries!
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
+- Sorry did not get what you said，I know a lot of stuff but this is a bit hard for a kettle.
+- What are you talking about? I am afraid that I can not understand you.
+- I don't get it! After all, I'm just a kettle.
+
+// If the user keeps repeating themselves over and over.
++ <input1>
+* <input1> == <input2> => That's the second time you've repeated yourself.
+* <input1> == <input3> => If you repeat yourself again I'll stop talking.
+* <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
+- Please don't repeat yourself.I get tired.

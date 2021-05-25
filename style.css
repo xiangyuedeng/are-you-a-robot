@@ -8,19 +8,21 @@
 }
 
 body {
-  background: #f2f2f2;
+  background: rgb(214, 214, 214);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToL5fRIvnY20Bk-2rH3PWcDfrcggHTKQT3pA&usqp=CAU);
+
 }
 
 .title {
-  height: 5vh;
+  height: 35vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .title h1 {
-  letter-spacing: 0.75px;
-  color: blueviolet;
+  letter-spacing: 1px;
+  color: rgb(43, 68, 179);
 }
 
 .wrapper {
@@ -28,18 +30,18 @@ body {
 }
 
 .chat {
-  background: white;
-  box-shadow: 10px 10px 0px rgb(116, 97, 134);
+  background: rgb(240, 240, 240);
+  box-shadow: 20px 20px 0px rgb(43, 68, 179);
   overflow: scroll;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 0px 20px;
-  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
 }
 
 .messages {
-  flex: 1 0 auto;
+  flex: 10 auto;
 }
 
 .messages div {
@@ -57,13 +59,13 @@ body {
 }
 
 .messages div a:hover {
-  color: blueviolet;
+  color: rgb(43, 68, 179);
 }
 
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: black;
+  background: rgb(43, 68, 179);
   color: white;
 }
 
@@ -72,8 +74,8 @@ body {
   margin-right: 20px;
   margin-left: auto;
   background: white;
-  border: 1px solid blueviolet;
-  color: blueviolet;
+  border: 1px solid rgb(43, 68, 179);
+  color: rgb(43, 68, 179);
 }
 
 .actions {
@@ -82,22 +84,22 @@ body {
   position: sticky;
   bottom: -1px;
   padding: 10px 0px 20px;
-  background: white;
+  background: rgb(240, 240, 240);
 }
 
 .actions input {
-  height: 30px;
+  height: 30px; 
   display: block;
   width: 100%;
   outline: 0;
   border-top: 0px;
   border-right: 0px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(240, 240, 240);
   border-left: 0px;
 }
 
 input:focus {
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(140, 139, 146);
 }
 
 @media all and (min-width: 720px) {
@@ -110,9 +112,9 @@ input:focus {
 
 @media all and (min-width: 1280px) {
   .wrapper {
-    width: 27.5vw;
+    width: 65vw;
   }
   .title {
-    height: 7.5vh;
+    height: 5vh;
   }
 }

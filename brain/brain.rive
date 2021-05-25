@@ -65,7 +65,7 @@
 
 + *
 - Sorry did not get what you said，I know a lot of stuff but this is a bit hard for a kettle.
-- What are you talking about? I am afraid that I can not understand you.
+- What are you talking about? As a kettle,I am afraid that I can not understand you.
 - I don't get it! After all, I'm just a kettle.
 
 // If the user keeps repeating themselves over and over.
@@ -74,3 +74,4 @@
 * <input1> == <input3> => If you repeat yourself again I'll stop talking.
 * <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
 - Please don't repeat yourself.I get tired.
+

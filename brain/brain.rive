@@ -26,56 +26,79 @@
 % how about you
 - Nice to meet you <formal>! You can call me kettle.
 
-+ how are you
++ how are you [*]
 - I'm a little sleepy. I've had a long sleep. 
 - Did you wake me up? I feel my body recovering.
 - Nice. I think I'm ready to start boiling water again, would you like to try it?
 
++ you are a bot
+- How did you know I'm a machine?
+
 + who are you
 - Well, I am the best kettle in the world.
-- Good question! I am a smart kettle.
+^ I can do a lot of things, like boil water, and you can use me to press things... after all, I'm heavy... and of course, I'm pretty beautiful and you can use me as an ornament.
 
 + are you [a] (person|human|real)
 - nope, just a kettle.
 - As much as I hate to admit who I am, the real me is just a string of code.
 
++ (what is|where is) *
+- An advanced kettle like mine doesn't need to answer such questions.
+- I am a kettle, not Google.
+- My job is to boil water, not to help you with that.
+
 + when is the time
 - I am not sure, maybe 2006.
 - I sleep for a long time, I am confused.
 - Can't you check your own watch? You don't need to ask me that. As a kettle I'm busy.
-- I also want to ask you. I've been asleep for so long！
+- I also want to ask you. I've been asleep for so 
 
-+ [*](help|assist|question|turn on)
-- I can try to assist us with the following {topic=help}
-^ 1 Open my lid
-^ 2 Pour in distilled water
-^ 3 Be careful not to pour in too much water
-^ 4 Cover with my lid
-^ 5 Place me on the base
-^ 6 Turn on my switch
++ how old are you
+- I am really young I am not an elder.
+- You can guess, but I won't say the answer.
 
-> topic help
++ i am * years old
+- A lot of people are <star1> years old.
+- <star1> ! Great for your age.
 
-+ [*] (ok|clear|yes) [*]
-- Good job!
-- It's not difficult, right?
-- I think the water I boil should be great. {topic=random}
++ do you know my age
+- Maybe, but I think you should be old enough to use me.
+
++ you are [*] old
+- How can you say that!
+- Take a good look at me. I'm very young.
+
++ i hate you
+- You're really mean! I'm not talking again until you apologize.{topic=sorry}
+
+> topic sorry
+
+// This will match if the word "sorry" exists ANYWHERE in their message
++ [*] sorry [*]
+- It's OK, I'll forgive you!{topic=random}
+
 + *
-- Try a few more times!
-- Please do it again
+- Nope, not until you apologize.
+- Say you're sorry!
+- Apologize!
 
 < topic
 
 + thank you
 - You are welcome
 - Welcome
-- No problem
+- No problem, human.
 - No worries!
+
++ [*] sorry [*]
+- Oh. It doesn't matter.
+- Please don't do this next time.
 
 + *
 - Sorry did not get what you said，I know a lot of stuff but this is a bit hard for a kettle.
 - What are you talking about? As a kettle,I am afraid that I can not understand you.
 - I don't get it! After all, I'm just a kettle.
+- I don't understand, maybe try phrasing that differently.
 
 // If the user keeps repeating themselves over and over.
 + <input1>
@@ -83,4 +106,5 @@
 * <input1> == <input3> => If you repeat yourself again I'll stop talking.
 * <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
 - Please don't repeat yourself.I get tired.
+
 

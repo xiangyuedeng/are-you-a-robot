@@ -84,6 +84,9 @@
 
 < topic
 
++ i love you
+- really? I'm so glad you said that. I'm really, really touched!
+
 + thank you
 - You are welcome
 - Welcome
@@ -106,5 +109,3 @@
 * <input1> == <input3> => If you repeat yourself again I'll stop talking.
 * <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
 - Please don't repeat yourself.I get tired.
-
-

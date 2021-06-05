@@ -9,12 +9,12 @@
 
 body {
   background: rgb(214, 214, 214);
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToL5fRIvnY20Bk-2rH3PWcDfrcggHTKQT3pA&usqp=CAU);
-
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49JE1b2H2qxWOl58ZWGrLeUda_sliGdqZ_g&usqp=CAU);
+  background-size: 400px,400px;
 }
 
 .title {
-  height: 35vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@ body {
 
 .title h1 {
   letter-spacing: 1px;
-  color: rgb(43, 68, 179);
+  color: rgb(255, 255, 255);
 }
 
 .wrapper {
@@ -31,7 +31,7 @@ body {
 
 .chat {
   background: rgb(240, 240, 240);
-  box-shadow: 20px 20px 0px rgb(43, 68, 179);
+  box-shadow: 20px 20px 0px rgb(68, 71, 4);
   overflow: scroll;
   height: 100%;
   display: flex;
@@ -59,13 +59,13 @@ body {
 }
 
 .messages div a:hover {
-  color: rgb(43, 68, 179);
+  color: rgb(50, 61, 32);
 }
 
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: rgb(43, 68, 179);
+  background: rgb(50, 61, 32);
   color: white;
 }
 
@@ -74,8 +74,8 @@ body {
   margin-right: 20px;
   margin-left: auto;
   background: white;
-  border: 1px solid rgb(43, 68, 179);
-  color: rgb(43, 68, 179);
+  border: 1px solid rgb(50, 61, 32);
+  color: rgb(5, 9, 26);
 }
 
 .actions {
@@ -105,7 +105,7 @@ input:focus {
 @media all and (min-width: 720px) {
   .wrapper {
     width: 40vw;
-    height: 90vh;
+    height: 80vh;
     margin: 0 auto 2.5vh;
   }
 }
@@ -115,7 +115,7 @@ input:focus {
     width: 65vw;
   }
   .title {
-    height: 5vh;
+    height: 10vh;
   }
 }
 

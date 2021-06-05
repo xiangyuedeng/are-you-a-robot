@@ -81,7 +81,7 @@
 - Alright then, human...I won't boil water anymore！{topic=random}
 
 + [*]no[*]
-- Looks like I misheard you.I hope you won't talk like that again.
+- Looks like I misheard you.I hope you won't talk like that again.{topic=random}
 
 + *
 - human please give me a yes or no answer.
@@ -103,7 +103,7 @@
 
 + *
 - So I'm obsolete? Will people abandon me for that? 😞
-- I think I need time to calm down.
+- I think I need time to calm down.{topic=random}
 
 
 < topic
@@ -126,7 +126,6 @@
 
 + *
 - human please give me a yes or no answer.
-
 
 < topic
 

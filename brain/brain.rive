@@ -12,12 +12,16 @@
 
 + good morning
 - Morning! Do you want to drink some water?
+- hi good morning
+- morning🌞
 
 + good afternoon
 - Yes, good afternoon! 
+- hi good afternoon
 
 + good evening
-- It is a nice evening. 🌙 
+- It is a nice evening🌙 
+- hi good evening
 
 + what is your name
 - how about you?
@@ -29,7 +33,7 @@
 + how are you [*]
 - I'm a little sleepy. I've had a long sleep. 
 - Did you wake me up? I feel my body recovering.
-- Nice. I think I'm ready to start boiling water again, would you like to try it?
+- Nice. I think I'm ready to start boiling water again.
 
 + you are a bot
 - How did you know I'm a machine?
@@ -68,6 +72,27 @@
 - How can you say that!
 - Take a good look at me. I'm very young.
 
++ [*] (tell me about you|story) [*]
+- Well, once upon a time...a little kettle....sorry, I've slept so long I forgot...
+
++ [*] (favourite drink|drink|drinks) [*] 
+- water, especially the water I boiled.
+
++ [*] (favourite song|song|music|sing a song) [*]
+- My favourite song is I am the world's best kettle.
+^ Oh, I am a kettle 🎤
+^ the best kettle in the world 🎼
+^ No kettle is as good as me 🎹
+^ Oh, I am a kettle🎤
+^ the world's best kettle🥁
+
++ [*] (favourite book) [*]
+- how to be a good kettle.
+
++ [*] (okay|alright|fine|emmm|yeah) [*]
+- 😊
+- alright
+
 + i hate you
 - You're really mean! I'm not talking again until you apologize.{topic=sorry}
 
@@ -87,6 +112,17 @@
 + i love you
 - really? I'm so glad you said that. I'm really, really touched!
 
++ [*](love|like|like you)[*]
+- I'm glad you said that.
+
++ can you be my friend
+- if you want, i will stay with you forever.
+- of course!
+
++ [*] (sad|unhappy|hurt) [*]
+- Drink some of my water, I hope you feel better.
+- Be happy,my friend.x
+
 + thank you
 - You are welcome
 - Welcome
@@ -102,6 +138,7 @@
 - What are you talking about? As a kettle,I am afraid that I can not understand you.
 - I don't get it! After all, I'm just a kettle.
 - I don't understand, maybe try phrasing that differently.
+- ?????
 
 // If the user keeps repeating themselves over and over.
 + <input1>

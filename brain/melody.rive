@@ -129,3 +129,24 @@
 
 < topic
 
++ [*] (boli|boli water) [*]
+- Boiling water is my favourite thing to do 
+^ Do you want to know how I boil water? {topic=boil}
+
+> topic boil
+
++ [*]no[*]
+- okay.That's fine. {topic=random}
+
++ [*]yes[*]
+- Place the kettle under the tap pipe of the water container, taking care to align the tap spout and turn the pipe on to the right level to ensure the water flows properly. 
+^ Do not spill cold water on the kettle, especially at the spigot.
+^ Fill the kettle with cold water, make sure it is higher than the top of the heating tube, make sure you pay attention to this, put the lid on and plug it in, this is when the charging plug of the water heater shows red.
+^ Look at the time when it starts to heat up, usually 12-15 minutes for a pot of water to boil.
+^ After that a pot of water is ready! {topic=random}
+
++ *
+- human please give me a yes or no answer.
+
+
+< topic

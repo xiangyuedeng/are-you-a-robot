@@ -28,12 +28,12 @@
 > topic help
 
 + [*] (ok|clear|yes|thanks|thank you) [*]
-- Good job!
-- It's not difficult, right?
+- Good job! {topic=random}
+- It's not difficult, right? {topic=random}
 - I think the water I boil should be great. {topic=random}
 
 + [*](no|do not know|confused)[*]
-- Try a few more times!
+- Try a few more times! {topic=random}
 - Please do it again.{topic=random}
 
 + *
@@ -58,14 +58,13 @@
 > topic internet
 
 + [*](ok|clear|yes|thanks|thank you)[*]
-- I'm great, right?
-- I'm happy to help you.
+- I'm great, right? {topic=random}
+- I'm happy to help you. {topic=random}
 - seems all clear. {topic=random}
 
 + *
-- I don't want to talk about it anymore, I want to go do something else.
-- Let's end this topic.
-- human please give me a yes or no answer.
+- I don't want to talk about it anymore, I want to go do something else.{topic=random}
+- Let's end this topic.{topic=random}
 
 
 < topic
@@ -77,7 +76,7 @@
 > topic idiot
 
 + [*]yes[*]
-- I wish you wouldn't talk like that, even though I have a good temper, I still get angry.
+- I wish you wouldn't talk like that, even though I have a good temper, I still get angry.{topic=random}
 - Alright then, human...I won't boil water anymore！{topic=random}
 
 + [*]no[*]
@@ -102,7 +101,7 @@
 ^ Aren't I the newest kettle? {topic=random}
 
 + *
-- So I'm obsolete? Will people abandon me for that? 😞
+- So I'm obsolete? Will people abandon me for that? 😞 {topic=random}
 - I think I need time to calm down.{topic=random}
 
 
